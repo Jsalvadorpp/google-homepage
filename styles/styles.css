@@ -1,0 +1,57 @@
+ /*to remove default settings*/
+*{
+    margin: 0;
+    padding: 0;
+}
+html,
+body{
+    /*fit window's height*/
+    height: 100%;
+    font-size: 92%;
+}
+ul{
+    /*to remove the bullets*/
+    list-style-type: none;
+    width: 100%;
+}
+li{
+    display:inline-block;
+    padding: 8px;
+}
+.top-navbar{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: right;
+}
+
+.main-section{
+    padding: 169px;
+    text-align: center
+}
+.main-section .search{
+    margin: 5px;
+}
+input{
+    width: 500px;
+}
+.bottom-navbar{
+    background-color: rgb(251, 240, 240);
+    border-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(227, 231, 231);
+   
+}
+.bottom-navbar .right-column{
+    float: right;
+    color: rebeccapurple;
+}
+footer p{
+    padding: 8px;
+}  
+footer div{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
