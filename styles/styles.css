@@ -2,49 +2,103 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 html,
 body{
     /*fit window's height*/
     height: 100%;
     font-size: 92%;
+    font-family: 'Courier New', Courier, monospace;
 }
 ul{
     /*to remove the bullets*/
     list-style-type: none;
     width: 100%;
+    cursor: pointer;
 }
 li{
     display:inline-block;
     padding: 8px;
+    
+}
+li:hover{
+    text-decoration: underline;
+}
+.material-icons{
+    font-size: 30px;
+    position: relative;
+    top: 6px;
 }
 .top-navbar{
-    padding-top: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
     text-align: right;
 }
+.top-navbar a:visited{
+    color: rgb(30, 30, 30);
 
+}
 .main-section{
-    padding: 169px;
-    text-align: center
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 80px;
+    padding-bottom: calc(70vh - 308px);
+    text-align: center;
+
+}
+.main-section button{
+    background-color: rgb(245, 245, 245);
+    border-style: none;
+    padding: 10px;
+    color:  rgb(100, 100, 100);
+    border-radius: 10px;
+}
+.main-section button:hover{
+    outline-style: solid;
+    outline-width: 1px;
+    -moz-outline-radius: 10px;
+    outline-color: rgb(210, 210, 210);
+    color: black;
+    cursor: pointer;
+
+}
+#logo{
+    min-width: 420px;
 }
 .main-section .search{
-    margin: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 20px;
+
+
 }
 input{
     width: 500px;
+    padding: 10px 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(230, 230, 230);
+    border-radius: 25px;
+}  
+input:hover{
+    box-shadow: 0px 0px 10px 0px rgb(210, 210, 210);
+    cursor: text;
+}
+input:focus{
+    box-shadow: 0px 0px 10px 0px rgb(210, 210, 210);
 }
 .bottom-navbar{
-    background-color: rgb(251, 240, 240);
+    background-color: rgb(245, 245, 245);
     border-width: 1px;
     border-top-style: solid;
-    border-top-color: rgb(227, 231, 231);
+    border-top-color: rgb(230, 230, 230);
+    color:  rgb(100, 100, 100);
    
 }
 .bottom-navbar .right-column{
     float: right;
-    color: rebeccapurple;
+    color:  rgb(100, 100, 100);
 }
 footer p{
     padding: 8px;
@@ -53,5 +107,4 @@ footer div{
     padding-left: 10px;
     padding-right: 10px;
 }
-
 
